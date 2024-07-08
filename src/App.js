@@ -1,11 +1,13 @@
-
+import './App.css';
+import Image from './component/Image'
 function App() {
-  return (
- <h1>
-  Hello world 
- </h1>
-   
-  );
+    return (
+        <div>
+            <div>HEY YOU!!
+            </div>
+            <Image bgcolor="skyblue" title="ful for a fool"></Image>
+            <Image bgcolor="pink" title="React JS"></Image>
+        </div>
+    );
 }
-
 export default App;
